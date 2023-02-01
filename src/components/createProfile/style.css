@@ -1,0 +1,27 @@
+.InfoProfile_Div {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-bottom: 50px;
+    justify-content: center;
+    height: fit-content;
+    margin-left: 40vh;
+    margin-right: 5vh;
+
+}
+input {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+label {
+  display: inline-block;
+}
+
+.cities_dev{
+
+ height: 100%;
+  display: flex;
+
+
+}

@@ -1,0 +1,340 @@
+.Profile_Div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: fit-content;
+  margin-left: 222px;
+  padding-left: 35px;
+}
+
+.welcome {
+  position: relative;
+  width: 275px;
+  height: 23px;
+  top: 32px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.section1 {
+  position: relative;
+  width: 61px;
+  height: 16px;
+  top: 98px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+
+  color: #181818;
+}
+
+p {
+  position: relative;
+  width: 952px;
+  height: 48px;
+  top: 100px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+
+  color: #929292;
+}
+
+.Information {
+  position: relative;
+  width: 77px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+
+  color: #181818;
+}
+
+.boxesContiner {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.box {
+  box-sizing: border-box;
+  position: relative;
+  width: 303px;
+  height: fit-content;
+  top: 80px;
+  border: 2px solid #000000;
+  border-radius: 15px;
+}
+
+h3 {
+  width: 53px;
+  height: 16px;
+  padding-top: 15px;
+  padding-left: 15px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #181818;
+}
+
+.sa {
+  position: relative;
+  width: 83px;
+  left: 15px;
+  top: 4px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+
+  /* Secondary / grey */
+
+  color: #929292;
+}
+
+.Hobbies {
+  width: 55px;
+  height: 16px;
+
+  top: 120px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+
+  /* Primary/Black */
+
+  color: #181818;
+}
+
+.Hobbies_div {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.btn_hobbies {
+  position: absolute;
+  height: fit-content;
+  position: relative;
+  width: 100px;
+  height: 32px;
+  top: 120px;
+
+  background: rgba(31, 163, 255, 0.1);
+  border-radius: 5px;
+
+  text-overflow: "....";
+  white-space: nowrap;
+}
+
+.hob_h6 {
+  position: relative;
+  height: 32px;
+  left: 20px;
+  top: 0px;
+  width: 60px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  color: #1fa3ff;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.Uplaoad_div {
+  display: flex;
+}
+
+.Upload_file {
+  position: relative;
+  width: 73px;
+  top: 140px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.file-upload-button {
+  position: relative;
+  width: 412px;
+  height: 80px;
+  top: 200px;
+  background: #ffffff;
+  border: 1px solid #f66b0e;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  margin-left: -73px;
+}
+
+.drop_drag_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 224px;
+  height: 16px;
+  left: 94px;
+  top: 32px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #f66b0e;
+}
+
+.Edt_div {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  width: 303px;
+  height: 40px;
+  margin-top: 150px;
+  background: #f66b0e;
+  border-radius: 10px;
+  margin-bottom: 0px;
+}
+
+.h6_edit {
+  position: absolute;
+  width: 27px;
+  height: 16px;
+  left: 138px;
+  top: 12px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+.section2_social {
+  display: flex;
+  flex-direction: row;
+  max-width: 85%;
+  margin-top: -5%;
+}
+.section2_div {
+  text-align: left;
+  width: 50%;
+}
+.section2 {
+  position: relative;
+  width: 61px;
+  height: 16px;
+  top: 98px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+
+  color: #181818;
+}
+
+.p_section2 {
+  position: relative;
+  width: 466px;
+  height: 112px;
+  top: 100px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+
+  /* Secondary / grey */
+
+  color: #929292;
+}
+.social_div {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  width: 50%; 
+  height: 112px;
+  top: 150px;
+  margin-left: -5%;
+
+}
+.soial_img{
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 15px;
+}
+.soial_I {
+  width: 30px;
+  height: 30px;
+}
