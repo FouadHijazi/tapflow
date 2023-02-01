@@ -1,0 +1,14 @@
+.MyProfile_Div {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-bottom: 5px;
+    justify-content: center;
+    height: fit-content;
+    margin-left: 222px;
+    margin-top: 5vh;
+  }
+  .the_info{
+    margin-left: 40vh;
+    margin-top: 5vh;
+  }
